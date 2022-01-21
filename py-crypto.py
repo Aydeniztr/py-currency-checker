@@ -7,7 +7,7 @@ coin = argv[1]
 
 def get_price(coin):
   
-  url = str('https://www.google.com.tr/search?q=%s+price' % coin)
+  url = str('https://www.google.com.tr/search?q='+ coin +'+price')
 
   data = requests.get(url)
 
