@@ -1,3 +1,5 @@
 bitcoin
 etherium
 monero
+APPL
+GOOGL
