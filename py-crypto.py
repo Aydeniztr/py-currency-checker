@@ -15,4 +15,8 @@ def get_price(coin):
 
   dataparse = Beautifulsoup(HTML.text,'html.parser')
 	
-	text = dataparse.find(div,attr={'class':''}
+  # <div class="H0PQec">
+  # <div class="sbc esbc">
+	
+  text = dataparse.find(div,attr={'class':'H0PQec'}.find(div,attr={'class':'sbc esbc'}
+							   
