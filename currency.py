@@ -1,18 +1,50 @@
-#Description: This program gets the price of crypto currencies in real time
-#Import the libraries
+
+from colorama import Fore,Back,Style,init,deinit
 from bs4 import BeautifulSoup
 import requests
-#Create a function to get the price of a cryptocurrency
-coin = input('give the name of the cryptocurrency you want to check\n>>')
-#Get the URL
-url = "https://www.google.com/search?q="+coin+"+price"
-#Make a request to the website
-HTML = requests.get(url)
-#Parse the HTML
-soup = BeautifulSoup (HTML. text, 'html.parser')
-#Find the current price
-#text = soup.find("div", attrs={'class': 'BNeawe iBp4i AP7Wnd'}).text
-text = soup.find("div", attrs={'class': 'BNeawe iBp4i AP7Wnd'}).find("div", attrs={'class': 'BNeawe iBp4i AP7Wnd'}).text
-#Return the text
-print(coin + [price] -> '+ text)
+import time
+import sys
 
+init()
+
+banner = '''
+ __        __   __   ___       __          __        ___  __        ___  __  
+/  ` |  | |__) |__) |__  |\ | /  ` \ / __ /  ` |__| |__  /  ` |__/ |__  |__) 
+\__, \__/ |  \ |  \ |___ | \| \__,  |     \__, |  | |___ \__, |  \ |___ |  \ 
+                                                                             
+
+author : Ahmet Yigit AYDENIZ
+'''
+if len(sys.argv) <= 1:
+	
+	print(banner)
+	exit()
+
+else:
+
+	stock = sys.argv[1]
+
+	url = "https://www.google.com/search?q="+stock+"+price"
+
+	while True:
+
+		HTML = requests.get(url)
+	
+		named_tuple = time.localtime()
+	
+		time_string = time.strftime("%m/%d/%Y, %H:%M:%S", named_tuple)
+
+		soup = BeautifulSoup (HTML. text, 'html.parser')
+
+		text = soup.find("div", attrs={'class': 'BNeawe iBp4i AP7Wnd'}).find("div", attrs={'class': 'BNeawe iBp4i AP7Wnd'}).text
+
+		if '+' in text:
+			print(stock + Fore.GREEN +' '+text+Fore.RESET +' '+time_string)
+		elif '-' in text:
+			print(stock + Fore.RED +' '+ text +Fore.RESET +' '+time_string)
+		else:
+			print(stock +' [price] -> '+ text +Fore.RESET +' '+time_string)
+	
+		time.sleep(3)
+
+deinit()
