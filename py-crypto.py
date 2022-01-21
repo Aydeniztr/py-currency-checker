@@ -18,5 +18,5 @@ def get_price(coin):
   # <div class="H0PQec">
   # <div class="sbc esbc">
 	
-  text = dataparse.find(div,attr={'class':'H0PQec'}.find(div,attr={'class':'sbc esbc'}
+  text = dataparse.find(div,attr={'class':'H0PQec'}.find(div,attr={'class':'sbc esbc'}.text
 							   
