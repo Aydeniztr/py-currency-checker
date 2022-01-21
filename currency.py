@@ -2,7 +2,6 @@
 #Import the libraries
 from bs4 import BeautifulSoup
 import requests
-import time
 #Create a function to get the price of a cryptocurrency
 coin = input('give the name of the cryptocurrency you want to check\n>>')
 #Get the URL
