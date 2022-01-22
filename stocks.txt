@@ -1,6 +1,0 @@
-bitcoin
-etherium
-monero
-APPL
-GOOGL
-NETAS.IS
