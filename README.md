@@ -6,3 +6,20 @@
 by Ahmet Yigit AYDENIZ
 
 ```
+
+## usage
+
+
+
+## installation
+
+bash setup.sh
+
+## notes
+
+You can modify everything as you want 
+
+## screenshots
+
+```
+```
