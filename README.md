@@ -16,6 +16,7 @@ multiple at the same time or just one of them as
 how you want ...
 
 ```
+
 <img src='https://github.com/Aydeniztr/py-currency-checker/raw/main/225A4726-29FF-4A27-87B6-5445DE9A5557.jpeg'>
 
 ## installation
@@ -55,9 +56,6 @@ and type :
  >> python3 currency.py list
 
 ```
-
-<img src='https://github.com/Aydeniztr/py-currency-checker/raw/main/3398E534-34BA-4B3D-99A8-CA20DA018E22.jpeg'>
-
 
   Github: https://github.com/Aydeniztr
   
