@@ -6,6 +6,9 @@
 by Ahmet Yigit AYDENIZ
 
 ```
+
+<img src='https://github.com/Aydeniztr/py-currency-checker/raw/main/225A4726-29FF-4A27-87B6-5445DE9A5557.jpeg'>
+
 ## description
 ```
  py-currency-checker
@@ -16,8 +19,6 @@ multiple at the same time or just one of them as
 how you want ...
 
 ```
-
-<img src='https://github.com/Aydeniztr/py-currency-checker/raw/main/225A4726-29FF-4A27-87B6-5445DE9A5557.jpeg'>
 
 ## installation
 
