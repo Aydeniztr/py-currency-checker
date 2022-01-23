@@ -35,6 +35,4 @@ for windows run setup.cmd in your shell
 
 ## screenshots
 
-<img src=>
-<img src=>
-<img src=>
+<img src="https://media.discordapp.net/attachments/728923218001264684/929168201215000617/phonto.jpg" width="300"  height="75" />
