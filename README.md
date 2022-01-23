@@ -56,6 +56,8 @@ and type :
 
 ```
 
+<img src='https://github.com/Aydeniztr/py-currency-checker/raw/main/3398E534-34BA-4B3D-99A8-CA20DA018E22.jpeg'>
+
   Github: https://github.com/Aydeniztr
   
   Website: https://www.aydeniz.tk 
