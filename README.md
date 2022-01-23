@@ -10,11 +10,9 @@ by Ahmet Yigit AYDENIZ
 ## description
 ```
  py-currency-checker
- 
- is a cli-app that clones the repo that you gived the link to 
- the script using argumants . If you have a very slow machine
- or you want'to save data without installing git , just installig
- a python script for clonning the repo you want .
+
+Check crypto currency prices and market summary's 
+of stocks in realtime in cli with colored output
 ```
 
 ## installation
