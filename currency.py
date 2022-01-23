@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 
 from colorama import Fore,Back,Style,init,deinit
 from bs4 import BeautifulSoup
