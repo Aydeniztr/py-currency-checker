@@ -33,7 +33,7 @@ to install :
 
 and type :
 
->> ./currency.py <repo_link>
+>> python3 currency.py <repo_link>
 
 ```
 
@@ -46,13 +46,13 @@ and type :
  
  examples:
  
- >> ./currency.py APPL
+ >> python3 currency.py APPL
  
- >> ./currency.py Monero
+ >> python3 currency.py Monero
  
  or see multiple results using list argumant (gets names from stocks.txt)
  
- >> ./currency.py list
+ >> python3 currency.py list
 
 ```
 
