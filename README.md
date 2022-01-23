@@ -11,8 +11,11 @@ by Ahmet Yigit AYDENIZ
 ```
  py-currency-checker
 
-Check crypto currency prices and market summary's of stocks in realtime in cli with colored output
-multiple at the same time or just one of them as how you want ...
+Check crypto currency prices and market summary's 
+of stocks in realtime in cli with colored output
+multiple at the same time or just one of them as 
+how you want ...
+
 ```
 
 ## installation
