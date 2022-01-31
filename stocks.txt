@@ -2,7 +2,7 @@ Bitcoin
 Litecoin
 Cardano 
 Monero  
-APPL    
+APPLE   
 GOOGL   
 TSLA    
 MSFT    
