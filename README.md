@@ -1,12 +1,3 @@
-```
- __        __   __   ___       __          __        ___  __        ___  __  
-/  ` |  | |__) |__) |__  |\ | /  ` \ / __ /  ` |__| |__  /  ` |__/ |__  |__) 
-\__, \__/ |  \ |  \ |___ | \| \__,  |     \__, |  | |___ \__, |  \ |___ |  \ 
-                                                                             
-by Ahmet Yigit AYDENIZ
-
-```
-
 <img src='https://github.com/Aydeniztr/py-currency-checker/raw/main/225A4726-29FF-4A27-87B6-5445DE9A5557.jpeg'>
 
 ## description
